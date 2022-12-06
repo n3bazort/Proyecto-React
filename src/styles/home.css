@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #EEEEEE;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    padding: 10px;
+    padding-right: 110px;
+    padding-left: 110px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 30px;
+
+    width: 70%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: 6% 0px 7% 7%;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+
+}
+
+.tarjetas {
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color: #EEEEEE;
+    border: 5px rgb(223, 1, 1);
+    border-radius: 25px;
+    padding-inline-end: 10px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+
+.contenedor .tarjetas .iconos img {
+    height: 80px;
+    margin: 15px;
+    border-radius: 29px;
+}
+
+.contenedor .tarjetas .iconos {
+    height: 180px;
+    margin-left: 0px;
+}
+
+h5 {
+    color: #72c02c;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 13px;
+}
